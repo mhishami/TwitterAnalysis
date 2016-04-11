@@ -11,6 +11,12 @@ oauth.accessToken=<access-token>
 oauth.accessTokenSecret=<access-token-secret>
 ```
 
+You can create the keys here at [Twitter Apps](https://apps.twitter.com)
+- Sign in to your Twitter account
+- Create the app by clicking the `Create New App` button
+- Fill in the application details, and accept the Agreement
+- Create the `Access Token`.
+
 # How to run
 - clone the repo
 - Add the `twitter4j.properties` in the classpath.
