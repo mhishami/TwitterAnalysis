@@ -1,3 +1,5 @@
+package com.zmt.nlp.twitter;
+
 import java.util.ArrayList;
 
 /**
