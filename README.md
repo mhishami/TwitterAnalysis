@@ -15,4 +15,18 @@ oauth.accessTokenSecret=<access-token-secret>
 - clone the repo
 - `$ mvn exec:java`
 
-That would run the sample analysis using "Trump" as the argument in the Twitter Hose.
+```
+[INFO] ------------------------------------------------------------------------
+[INFO] Building twitter-analysis 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ twitter-analysis >>>
+[INFO]
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ twitter-analysis <<<
+[INFO]
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ twitter-analysis ---
+Enter the text to search:
+```
+
+Enter the phrase to search for when prompted, and the sentiment analysis is then applied for each message
+fetch from the search
