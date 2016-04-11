@@ -13,6 +13,7 @@ oauth.accessTokenSecret=<access-token-secret>
 
 # How to run
 - clone the repo
+- Add the `twitter4j.properties` in the classpath.
 - `$ mvn exec:java`
 
 ```
@@ -29,4 +30,4 @@ Enter the text to search:
 ```
 
 Enter the phrase to search for when prompted, and the sentiment analysis is then applied for each message
-fetch from the search
+fetched from the search
